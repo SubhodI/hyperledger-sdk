@@ -1,0 +1,23 @@
+{
+  "name": "hyperledger-sdk",
+  "version": "1.0.0",
+  "description": "Library for chaincode operations and user management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubhodI/hyperledger-sdk.git"
+  },
+  "keywords": [
+    "blockchain",
+    "hyperledger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubhodI/hyperledger-sdk/issues"
+  },
+  "homepage": "https://github.com/SubhodI/hyperledger-sdk#readme"
+}
