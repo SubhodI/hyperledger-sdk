@@ -22,7 +22,7 @@
   "dependencies": {
     "fabric-ca-client": "^1.0.0",
     "fabric-client": "^1.0.0",
-    "fs-extra": "^2.0.0",
+    "fs-extra": "^2.0.0"
     },
   "author": "",
   "license": "ISC",
