@@ -22,7 +22,8 @@
   "dependencies": {
     "fabric-ca-client": "^1.0.0",
     "fabric-client": "^1.0.0",
-    "fs-extra": "^2.0.0"
+    "fs-extra": "^2.0.0",
+	"log4js": "^0.6.38"
     },
   "author": "",
   "license": "ISC",
