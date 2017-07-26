@@ -3,7 +3,7 @@
    "port":"4000",
    "jwt_expiretime": "36000",
    "channelName":"firstchannel",
-   "GOPATH":"/root/workspace/hyperledger/hyperledger-sdk/test/chaincode/",
+   "GOPATH":"/root/hyperledger/hyperledger-sdk/test/chaincode/",
    "keyValueStore":"/tmp/fabric-client-kvs",
    "eventWaitTime":"30000",
    "orderer":"grpcs://localhost:7050",
