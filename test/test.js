@@ -17,9 +17,9 @@ helper.setChain("/root/hyperledger/hyperledger-sdk/test/network-config.json","/r
 //chaincode.installChaincode(["localhost:7051","localhost:7056"], "mycc", "github.com/example_cc","v1", "admin", "org1");
 // file shoulld be inside config.GOPATH/src/example_cc.go
 
-chaincode.instantiateChaincode("business", "mycc", "v1", "init", ["a","100","b","200"],"admin", "org1");
+//chaincode.instantiateChaincode("business", "mycc", "v1", "init", ["a","100","b","200"],"admin", "org1");
 //error: chaincode name issue
 
 //chaincode.invokeChaincode(["localhost:7051", "localhost:7056"], "firstchannel", "mycc", "move", ["a","b","10"], "admin", "org1")
-//console.log(queryChaincode("peer1","mychannel","mycc", ['a'], "query", "admin", "org1"));
+console.log(chaincode.queryChaincode("peer1","mychannel","mycc", ['b'], "query", "admin", "org1"));
 //invokeChaincode(["localhost:7051", "localhost:7056"], "mychannel", "mycc", "move", ["a","b","10"], "admin", "org1")
